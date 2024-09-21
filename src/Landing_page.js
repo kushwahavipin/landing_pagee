@@ -32,7 +32,7 @@ const Landing_page = () => {
       <div className="main-layout">
       {/* <!-- navigation header section --> */}
           <header className="header">
-            <img src={Landing_page_header_logo} alt="Logo Image" className="header__logo" />
+            <img src={Landing_page_header_logo} alt="Logo" className="header__logo" />
             <ul className="header__menu">
               <li>
                 <a href="#">
@@ -67,7 +67,7 @@ const Landing_page = () => {
               </div>
             </div>
             <div className="image-stack">
-              <img src={Landing_page_ellipse_468} alt="Hero Image" className="section__image--featured" />
+              <img src={Landing_page_ellipse_468} alt="Hero" className="section__image--featured" />
               <div className="view-row">
                 <div className="section__view--default"></div>
                 <div className="section__view--alternate"></div>
@@ -82,12 +82,12 @@ const Landing_page = () => {
                         <div className="analog-landscape-stack">
                           <img
                             src={Landing_page_analog_landscap}
-                            alt="Analog Landscape Image"
+                            alt="Analog Landscape "
                             className="section__image--landscape"
                           />
                           <img
                             src={Landing_page_happy_asian_man}
-                            alt="Happy Asian Man Image"
+                            alt="Happy Asian Man "
                             className="section__image--portrait"
                           />
                         </div>
@@ -96,27 +96,27 @@ const Landing_page = () => {
                         <div className="contrast-row">
                           <img
                             src={Landing_page_contrast}
-                            alt="Contrast Image"
+                            alt="Contrast "
                             className="section__image--contrast"
                           />
                           <h2 className="section__text--intro-1 ui heading size-texts">Introduction to vehicle training</h2>
                         </div>
                         <img
                           src={Landing_page_man_safety_equipment_work}
-                          alt="Safety Equipment Image"
+                          alt="Safety Equipment "
                           className="section__image--safety"
                         />
                       </div>
                       <div className="success-row">
                         <img
                           src={Landing_page_success}
-                          alt="Success Image One"
+                          alt="Success  One"
                           className="section__image--success"
                         />
                         <h3 className="section__text--reduced-1 ui heading size-texts">Reduced Delivery Time</h3>
                       </div>
                     </div>
-                    <img src={Landing_page_group_1} alt="Group Image Two" className="section__image--group" />
+                    <img src={Landing_page_group_1} alt="Group  Two" className="section__image--group" />
                   </div>
                 </div>
               </div>
@@ -141,13 +141,13 @@ const Landing_page = () => {
                     <div className="woman-hands-row">
                       <img
                         src={Landing_page_woman_hands_hol}
-                        alt="Woman Hands Image"
+                        alt="Woman Hands "
                         className="section__image--hands"
                       />
                       <div className="overflow-menu-row">
                         <img
                           src={Landing_page_overflow_menu}
-                          alt="Overflow Menu Image"
+                          alt="Overflow Menu "
                           className="section__image--menu"
                         />
                         <h3 className="section__text--intro ui heading size-textxs">Introduction to vehicle training</h3>
@@ -157,12 +157,12 @@ const Landing_page = () => {
                   <div className="success-row-two">
                     <img
                       src={Landing_page_success_teal_900}
-                      alt="Success Teal Image"
+                      alt="Success Teal "
                       className="section__image--teal"
                     />
                     <h4 className="section__text--reduced ui heading size-textmd">Reduced Delivery Time</h4>
                   </div>
-                  <img src={Landing_page_close} alt="Close Image" className="section__image--close" />
+                  <img src={Landing_page_close} alt="Close " className="section__image--close" />
                 </div>
                 <div className="whatsapp-column-one">
                   <h5 className="section__text--whatsapp ui heading size-heading2xl">WhatsApp Learning</h5>
@@ -198,10 +198,10 @@ const Landing_page = () => {
           <div className="description-row">
             <div className="description-row-inner">
               <div className="image-column">
-                <img src={Landing_page_image_64} alt="Image Sixty Four" className="section__image--64" />
+                <img src={Landing_page_image_64} alt=" Sixty Four" className="section__image--64" />
               </div>
               <div className="column-one">
-                <img src={Landing_page_image_54} alt="Image Fifty Four" className="section__image--54" />
+                <img src={Landing_page_image_54} alt=" Fifty Four" className="section__image--54" />
                 <div className="trending-column">
                   <div className="trending-row">
                     <button className="section__icon--trending ui button white_a700_cc size-sm fill round">
@@ -234,10 +234,10 @@ const Landing_page = () => {
           <div className="row-seven">
             <div className="description-row-inner">
               <div className="column-two">
-                <img src={Landing_page_image_62_1_2} alt="Image Sixty Two" className="section__image--62" />
+                <img src={Landing_page_image_62_1_2} alt=" Sixty Two" className="section__image--62" />
               </div>
               <div className="column-three">
-                <img src={Landing_page_image_55} alt="Image Fifty Five" className="section__image--55" />
+                <img src={Landing_page_image_55} alt=" Fifty Five" className="section__image--55" />
                 <div className="trending-column">
                   <div className="trending-row-two">
                     <button className="section__icon--trending ui button white_a700_cc size-sm fill round">
@@ -265,12 +265,12 @@ const Landing_page = () => {
               <div className="row-eight">
                 <img
                   src={Landing_page_whatsapp_image_2023_10_06}
-                  alt="Whatsapp Image"
+                  alt="Whatsapp "
                   className="section__image--whatsapp"
                 />
               </div>
               <div className="column-four">
-                <img src={Landing_page_image_59} alt="Image Fifty Nine" className="section__image--59" />
+                <img src={Landing_page_image_59} alt=" Fifty Nine" className="section__image--59" />
                 <div>
                   <div className="trending-row-two">
                     <button className="section__icon--trending ui button white_a700_cc size-sm fill round">
