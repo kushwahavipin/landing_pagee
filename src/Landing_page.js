@@ -1,24 +1,24 @@
 import React from 'react';
 import './Landing_page.css';
-import img_ellipse_468 from "./assets/img_ellipse_468.png";
-import img_group_1 from "./assets/img_group_1.svg"
-import img_analog_landscap from "./assets/img_analog_landscap.png"
-import img_happy_asian_man from "./assets/img_happy_asian_man.png"
-import img_contrast from "./assets/img_contrast.svg"
-import img_man_safety_equipment_work from "./assets/img_man_safety_equipment_work.png"
-import img_success from "./assets/img_success.svg"
-import img_header_logo from "./assets/img_header_logo.svg"
-import img_woman_hands_hol from "./assets/img_woman_hands_hol.png"
-import img_overflow_menu from "./assets/img_overflow_menu.svg"
-import img_success_teal_900 from "./assets/img_success_teal_900.svg";
-import img_close from "./assets/img_close.svg";
-import img_image_64 from "./assets/img_image_64.png";
-import img_image_54 from "./assets/img_image_54.png";
-import img_trending_up from "./assets/img_trending_up.svg";
-import img_image_62_1_2 from "./assets/img_image_62_1_2.png";
-import img_image_55 from "./assets/img_image_55.png";
-import img_whatsapp_image_2023_10_06 from "./assets/img_whatsapp_image_2023_10_06.png";
-import img_image_59 from "./assets/img_image_59.png";
+import imge_ellipse_468 from "./assets/img_ellipse_468.png";
+import imge_group_1 from "./assets/img_group_1.svg"
+import imge_analog_landscap from "./assets/img_analog_landscap.png"
+import imge_happy_asian_man from "./assets/img_happy_asian_man.png"
+import imge_contrast from "./assets/img_contrast.svg"
+import imge_man_safety_equipment_work from "./assets/img_man_safety_equipment_work.png"
+import imge_success from "./assets/img_success.svg"
+import imge_header_logo from "./assets/img_header_logo.svg"
+import imge_woman_hands_hol from "./assets/img_woman_hands_hol.png"
+import imge_overflow_menu from "./assets/img_overflow_menu.svg"
+import imge_success_teal_900 from "./assets/img_success_teal_900.svg";
+import imge_close from "./assets/img_close.svg";
+import imge_image_64 from "./assets/img_image_64.png";
+import imge_image_54 from "./assets/img_image_54.png";
+import imge_trending_up from "./assets/img_trending_up.svg";
+import imge_image_62_1_2 from "./assets/img_image_62_1_2.png";
+import imge_image_55 from "./assets/img_image_55.png";
+import imge_whatsapp_image_2023_10_06 from "./assets/img_whatsapp_image_2023_10_06.png";
+import imge_image_59 from "./assets/img_image_59.png";
 
 
 
@@ -32,7 +32,7 @@ const Landing_page = () => {
       <div className="main-layout">
       {/* <!-- navigation header section --> */}
           <header className="header">
-            <img src={img_header_logo} alt="Logo Image" className="header__logo" />
+            <img src={imge_header_logo} alt="Logo Image" className="header__logo" />
             <ul className="header__menu">
               <li>
                 <a href="#">
@@ -67,7 +67,7 @@ const Landing_page = () => {
               </div>
             </div>
             <div className="image-stack">
-              <img src={img_ellipse_468} alt="Hero Image" className="section__image--featured" />
+              <img src={imge_ellipse_468} alt="Hero Image" className="section__image--featured" />
               <div className="view-row">
                 <div className="section__view--default"></div>
                 <div className="section__view--alternate"></div>
@@ -75,18 +75,18 @@ const Landing_page = () => {
               <div className="section__view--additional"></div>
               <div className="content-row">
                 <div className="success-column">
-                  <img src={img_group_1} alt="Success Image" className="section__image--thumbnail" />
+                  <img src={imge_group_1} alt="Success Image" className="section__image--thumbnail" />
                   <div className="analog-landscape-row">
                     <div className="contrast-stack">
                       <div className="analog-landscape-column">
                         <div className="analog-landscape-stack">
                           <img
-                            src={img_analog_landscap}
+                            src={imge_analog_landscap}
                             alt="Analog Landscape Image"
                             className="section__image--landscape"
                           />
                           <img
-                            src={img_happy_asian_man}
+                            src={imge_happy_asian_man}
                             alt="Happy Asian Man Image"
                             className="section__image--portrait"
                           />
@@ -95,28 +95,28 @@ const Landing_page = () => {
                       <div className="contrast-column">
                         <div className="contrast-row">
                           <img
-                            src={img_contrast}
+                            src={imge_contrast}
                             alt="Contrast Image"
                             className="section__image--contrast"
                           />
                           <h2 className="section__text--intro-1 ui heading size-texts">Introduction to vehicle training</h2>
                         </div>
                         <img
-                          src={img_man_safety_equipment_work}
+                          src={imge_man_safety_equipment_work}
                           alt="Safety Equipment Image"
                           className="section__image--safety"
                         />
                       </div>
                       <div className="success-row">
                         <img
-                          src={img_success}
+                          src={imge_success}
                           alt="Success Image One"
                           className="section__image--success"
                         />
                         <h3 className="section__text--reduced-1 ui heading size-texts">Reduced Delivery Time</h3>
                       </div>
                     </div>
-                    <img src={img_group_1} alt="Group Image Two" className="section__image--group" />
+                    <img src={imge_group_1} alt="Group Image Two" className="section__image--group" />
                   </div>
                 </div>
               </div>
@@ -140,13 +140,13 @@ const Landing_page = () => {
                     </div>
                     <div className="woman-hands-row">
                       <img
-                        src={img_woman_hands_hol}
+                        src={imge_woman_hands_hol}
                         alt="Woman Hands Image"
                         className="section__image--hands"
                       />
                       <div className="overflow-menu-row">
                         <img
-                          src={img_overflow_menu}
+                          src={imge_overflow_menu}
                           alt="Overflow Menu Image"
                           className="section__image--menu"
                         />
@@ -156,13 +156,13 @@ const Landing_page = () => {
                   </div>
                   <div className="success-row-two">
                     <img
-                      src={img_success_teal_900}
+                      src={imge_success_teal_900}
                       alt="Success Teal Image"
                       className="section__image--teal"
                     />
                     <h4 className="section__text--reduced ui heading size-textmd">Reduced Delivery Time</h4>
                   </div>
-                  <img src={img_close} alt="Close Image" className="section__image--close" />
+                  <img src={imge_close} alt="Close Image" className="section__image--close" />
                 </div>
                 <div className="whatsapp-column-one">
                   <h5 className="section__text--whatsapp ui heading size-heading2xl">WhatsApp Learning</h5>
@@ -198,14 +198,14 @@ const Landing_page = () => {
           <div className="description-row">
             <div className="description-row-inner">
               <div className="image-column">
-                <img src={img_image_64} alt="Image Sixty Four" className="section__image--64" />
+                <img src={imge_image_64} alt="Image Sixty Four" className="section__image--64" />
               </div>
               <div className="column-one">
-                <img src={img_image_54} alt="Image Fifty Four" className="section__image--54" />
+                <img src={imge_image_54} alt="Image Fifty Four" className="section__image--54" />
                 <div className="trending-column">
                   <div className="trending-row">
                     <button className="section__icon--trending ui button white_a700_cc size-sm fill round">
-                      <img src={img_trending_up}/>
+                      <img src={imge_trending_up}/>
                     </button>
                     <div className="improvement-column">
                       <h2 className="section__text--improvement ui heading size-headingxl">32% improvement</h2>
@@ -234,14 +234,14 @@ const Landing_page = () => {
           <div className="row-seven">
             <div className="description-row-inner">
               <div className="column-two">
-                <img src={img_image_62_1_2} alt="Image Sixty Two" className="section__image--62" />
+                <img src={imge_image_62_1_2} alt="Image Sixty Two" className="section__image--62" />
               </div>
               <div className="column-three">
-                <img src={img_image_55} alt="Image Fifty Five" className="section__image--55" />
+                <img src={imge_image_55} alt="Image Fifty Five" className="section__image--55" />
                 <div className="trending-column">
                   <div className="trending-row-two">
                     <button className="section__icon--trending ui button white_a700_cc size-sm fill round">
-                      <img src={img_trending_up} />
+                      <img src={imge_trending_up} />
                     </button>
                     <div className="revenue-column">
                       <h5 className="section__text--increase ui heading size-headingxl">43% increase</h5>
@@ -264,17 +264,17 @@ const Landing_page = () => {
             <div className="vector-forty-eight-row-two">
               <div className="row-eight">
                 <img
-                  src={img_whatsapp_image_2023_10_06}
+                  src={imge_whatsapp_image_2023_10_06}
                   alt="Whatsapp Image"
                   className="section__image--whatsapp"
                 />
               </div>
               <div className="column-four">
-                <img src={img_image_59} alt="Image Fifty Nine" className="section__image--59" />
+                <img src={imge_image_59} alt="Image Fifty Nine" className="section__image--59" />
                 <div>
                   <div className="trending-row-two">
                     <button className="section__icon--trending ui button white_a700_cc size-sm fill round">
-                      <img src={img_trending_up} />
+                      <img src={imge_trending_up} />
                     </button>
                     <div className="reduction-column">
                       <h1 className="section__text--improvement ui heading size-headingxl">57% Reduction</h1>
