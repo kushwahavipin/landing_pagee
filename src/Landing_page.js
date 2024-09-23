@@ -32,7 +32,7 @@ const Landing_page = () => {
       <div className="main-layout">
         {/* <!-- hero banner section --> */}
         <div className="primary-column">
-          <div className="feature-row">
+          <div className="feature-row" style={{marginTop:'20px'}}>
             <div className="whatsapp-column">
               <h1 className="section__title ui heading size-heading3xl">
                 WhatsApp Learning to Transform your<br />Delivery Workforce
