@@ -27,10 +27,9 @@ import Landing_page_image_59 from "./assets/img_image_59.png";
 const Landing_page = () => {
   return (
     <>
-    {/* <!-- main content section --> */}
     <div className="macbook-pro-14">
       <div className="main-layout">
-      {/* <!-- navigation header section --> */}
+        <div className="herosection">
           <header className="header">
             <img src={Landing_page_header_logo} alt="Logo" className="header__logo" />
             <ul className="header__menu">
@@ -51,7 +50,7 @@ const Landing_page = () => {
               </li>
             </ul>
           </header>
-        {/* <!-- hero banner section --> */}
+          {/* header end */}
         <div className="primary-column">
           <div className="feature-row">
             <div className="whatsapp-column">
@@ -122,11 +121,11 @@ const Landing_page = () => {
               </div>
             </div>
           </div>
+          </div>
 
           
         </div>
 
-        {/* <!-- features overview section --> */}
         <div className="section-row">
           <div className="content-row-four">
             <div className="content-row-three">
@@ -177,23 +176,22 @@ const Landing_page = () => {
                     <h6 className="section__text--analytics ui heading size-headinglg">Analytics</h6>
                   </div>
                   <div className="smart-enrollment-column">
-                    <h3 className="section__text--enrollment ui heading size-headinglg">Smart Enrollment</h3>
+                    <h3 className="section__text--enrollment ui heading size-headinglg">Smart_Enrollment</h3>
                   </div>
                 </div>
                 <div className="gamified-row">
                   <div className="gamified-column">
-                    <h3 className="section__text--gamified ui heading size-headinglg">Gamified Platform</h3>
+                    <h3 className="section__text--gamified ui heading size-headinglg">Gamified_Platform</h3>
                   </div>
                   <div className="vernacular-column">
-                    <h3 className="section__text--vernacular ui heading size-headinglg">Vernacular Content</h3>
+                    <h3 className="section__text--vernacular ui heading size-headinglg">Vernacular_Content</h3>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        {/* <!-- testimonials section --> */}
+{/* third section */}
         <div className="trending-stack">
           <div className="description-row">
             <div className="description-row-inner">

@@ -141,51 +141,43 @@ select:focus-visible {
 /*-------------------------------------
   3. Page CSS
 --------------------------------------*/
+
+/* navbar css start */
+
+
+/* navbar css start */
+
 .macbook-pro-14 {
   width: 100%;
 }
 
 .main-layout {
-  padding-top: var(--space-3xl);
-  padding-bottom: var(--space-3xl);
+  padding-top: 70px;
+  padding-bottom: 70px;
   background-color: var(--white_a700);
 }
 
 .primary-column {
   height: 744px;
-  padding-left: var(--space-3xl);
-  padding-right: var(--space-3xl);
+  padding-left: 70px;
+  padding-right: 70px;
   position: relative;
   align-content: center;
-  @media only screen and (max-width: 1440px) {
-    height: auto;
-  }
-
-  @media only screen and (max-width: 1050px) {
-    height: auto;
-  }
 }
 
 .feature-row {
-  flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1474px;
-  width: 100%;
-  @media only screen and (max-width: 1050px) {
-    flex-direction: column;
-  }
 }
 
 .whatsapp-column {
   gap: 46px;
   z-index: 2;
   display: flex;
-  width: 34%;
+  width: 45%;
   position: relative;
+  top: -50px;
   flex-direction: column;
   @media only screen and (max-width: 1050px) {
     width: 100%;
@@ -199,8 +191,9 @@ select:focus-visible {
   background: linear-gradient(180deg, #25d366, #0d62ff);
   background-clip: text;
   line-height: 110%;
+  width: 110%;
   @media only screen and (max-width: 1440px) {
-    font-size: 48px;
+    font-size: 40px;
   }
 }
 
@@ -264,9 +257,10 @@ select:focus-visible {
 
 .image-stack {
   height: 744px;
-  margin-left: -464px;
   position: relative;
-  width: 62%;
+  top: -70px;
+  left: -10px;
+  width: 50%;
   align-content: flex-end;
   @media only screen and (max-width: 1440px) {
     height: auto;
@@ -290,28 +284,10 @@ select:focus-visible {
 }
 
 .view-row {
-  flex: 1;
   display: flex;
-  justify-content: flex-end;
-  align-items: start;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  top: 0px;
-  height: max-content;
-  margin: auto 66px;
-  @media only screen and (max-width: 1440px) {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  @media only screen and (max-width: 1050px) {
-    flex-direction: column;
-    position: relative;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
+  justify-content: space-between;
+  align-items: center;
+  height: 80vmin;
 }
 
 .section__view--default {
@@ -384,9 +360,9 @@ select:focus-visible {
 }
 
 .section__image--thumbnail {
-  height: 120px;
+  height: 100px;
   margin-right: 396px;
-  width: 120px;
+  width: 100px;
   @media only screen and (max-width: 1050px) {
     margin-right: 0px;
   }
@@ -416,6 +392,7 @@ select:focus-visible {
   background-color: var(--white_a700_19);
   width: 32%;
   position: absolute;
+  background-color: transparent;
   right: 18%;
   top: 0px;
   margin: auto;
@@ -423,26 +400,19 @@ select:focus-visible {
 }
 
 .analog-landscape-stack {
-  height: 416px;
+  height: 380px;
+  width: 40vmin;
+  margin-left: -20vmin;
   position: relative;
   align-content: center;
   border-radius: var(--radius-xs);
-  @media only screen and (max-width: 1440px) {
-    height: auto;
-  }
-
-  @media only screen and (max-width: 1050px) {
-    height: auto;
-  }
 }
 
 .section__image--landscape {
-  height: 416px;
+  height: 380px;
   flex: 1;
   object-fit: cover;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95%;
   border-radius: var(--radius-xs);
 }
 
@@ -472,12 +442,16 @@ select:focus-visible {
 .contrast-row {
   margin-right: 22px;
   gap: var(--space-xl);
-  display: flex;
   background-color: var(--blue_50);
-  width: 18%;
+  border-radius: var(--radius-xs);
+  width: 200px;
+  height: 55px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: var(--space-xs);
+  position: relative;
+  top: -450px;
+  right: -8%;
   border-radius: var(--radius-xs);
 }
 
@@ -494,8 +468,8 @@ select:focus-visible {
 }
 
 .section__image--safety {
-  height: 328px;
-  width: 22%;
+  height: 330px;
+  width: 38%;
   object-fit: contain;
   border-radius: var(--radius-xs);
   position: absolute;
@@ -505,15 +479,14 @@ select:focus-visible {
 .success-row {
   gap: var(--space-xl);
   background-color: var(--blue_50);
-  width: 24%;
+  width: 200px;
+  height: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   bottom: 18%;
-  right: 34%;
-  padding: var(--space-xs);
-  margin: auto;
+  right: 54%;
   border-radius: var(--radius-xs);
   @media only screen and (max-width: 550px) {
     flex-direction: column;
@@ -539,12 +512,12 @@ select:focus-visible {
 }
 
 .section__image--group {
-  height: 120px;
+  height: 100px;
   margin-bottom: 164px;
-  margin-left: -96px;
+  margin-left: -56px;
   align-self: end;
   position: relative;
-  width: 120px;
+  width: 100px;
   @media only screen and (max-width: 1050px) {
     align-self: auto;
     width: 100%;
@@ -563,6 +536,8 @@ select:focus-visible {
   left: 0px;
   gap: var(--space-4xl);
   padding: var(--space-md) var(--space-5xl);
+  padding-left: 65px;
+  padding-right: 65px;
   margin: auto;
   @media only screen and (max-width: 550px) {
     flex-direction: column;
@@ -844,6 +819,8 @@ select:focus-visible {
   transform: rotate(-90deg);
   width: 40%;
   line-height: 43px;
+  position: relative;
+  top: -40px;
   @media only screen and (max-width: 1440px) {
     width: 100%;
   }
@@ -870,6 +847,8 @@ select:focus-visible {
   flex-direction: column;
   align-items: start;
   padding: 40px 32px;
+  position: relative;
+  left: -50px;
   border-top: 3px solid var(--white_a700);
   @media only screen and (max-width: 550px) {
     padding: var(--space-2xl);
@@ -882,6 +861,9 @@ select:focus-visible {
   transform: rotate(-90deg);
   width: 42%;
   line-height: 43px;
+  position: relative;
+  top: 95px;
+  z-index: 1;
   @media only screen and (max-width: 1440px) {
     width: 100%;
   }
@@ -914,6 +896,9 @@ select:focus-visible {
   flex-direction: column;
   align-items: start;
   padding: 40px 30px;
+  position: relative;
+  z-index: 1;
+  left: -50px;
   border-top: 3px solid var(--white_a700);
   @media only screen and (max-width: 550px) {
     padding: var(--space-2xl);
@@ -926,6 +911,8 @@ select:focus-visible {
   transform: rotate(-90deg);
   width: 38%;
   line-height: 43px;
+  position: relative;
+  top: 90px;
   @media only screen and (max-width: 1440px) {
     width: 100%;
   }
@@ -952,6 +939,8 @@ select:focus-visible {
   flex-direction: column;
   align-items: center;
   padding: 40px 28px;
+  position: relative;
+  left: -250px;
   border-top: 3px solid var(--white_a700);
   @media only screen and (max-width: 550px) {
     padding: var(--space-2xl);
@@ -964,6 +953,9 @@ select:focus-visible {
   transform: rotate(-90deg);
   width: 98%;
   line-height: 43px;
+  position: relative;
+  left: 50px;
+  top: 150px;
   @media only screen and (max-width: 1440px) {
     width: 100%;
   }
@@ -1012,7 +1004,7 @@ select:focus-visible {
   top: 0px;
   margin-top: auto;
   margin-bottom: auto;
-  height: max-content;
+  height: 450px;
   max-width: 1106px;
   padding: var(--space-7xl);
   border-radius: var(--radius-8xl);
@@ -1036,6 +1028,7 @@ select:focus-visible {
   padding-right: var(--space-sm);
   background-color: var(--gray_900_01);
   width: 36%;
+  overflow: hidden;
   border-radius: var(--radius-5xl);
   @media only screen and (max-width: 1050px) {
     width: 100%;
@@ -1048,6 +1041,7 @@ select:focus-visible {
   margin-right: 6px;
   object-fit: cover;
   width: 100%;
+  border-radius: 50%;
   @media only screen and (max-width: 1440px) {
     height: auto;
   }
@@ -1110,7 +1104,7 @@ select:focus-visible {
   bottom: 0px;
   right: 0px;
   top: 0px;
-  height: max-content;
+  height: 450px;
   max-width: 1096px;
   padding: var(--space-7xl);
   margin: auto;
@@ -1135,6 +1129,7 @@ select:focus-visible {
   padding-right: var(--space-2xl);
   background-color: var(--gray_900_01);
   width: 36%;
+  overflow: hidden;
   border-radius: var(--radius-4xl);
   @media only screen and (max-width: 1050px) {
     width: 100%;
@@ -1146,6 +1141,7 @@ select:focus-visible {
   margin-top: 6px;
   object-fit: cover;
   width: 100%;
+  border-radius: 50%;
   @media only screen and (max-width: 1440px) {
     height: auto;
   }
@@ -1239,7 +1235,7 @@ select:focus-visible {
   top: 0px;
   margin-top: auto;
   margin-bottom: auto;
-  height: max-content;
+  height: 450px;
   max-width: 1128px;
   padding: var(--space-7xl);
   border-radius: var(--radius-9xl);
@@ -1258,6 +1254,12 @@ select:focus-visible {
   }
 }
 
+.row-seven img {
+position: relative;
+top: 10px;
+left: -30px;
+}
+
 .vector-forty-eight-row-two {
   width: 100%;
   display: flex;
@@ -1272,12 +1274,14 @@ select:focus-visible {
   background-color: var(--gray_900_01);
   display: flex;
   border-radius: var(--radius-7xl);
+  overflow: hidden;
 }
 
 .section__image--whatsapp {
   height: 338px;
   margin-top: 30px;
   width: 100%;
+  border-radius: 50%;
   object-fit: cover;
   @media only screen and (max-width: 1440px) {
     height: auto;
@@ -1373,7 +1377,7 @@ select:focus-visible {
 }
 
 .ravishankar-column {
-  gap: var(--space-3xl);
+  gap: 70px;
   display: flex;
   flex-direction: column;
 }
